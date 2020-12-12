@@ -2,7 +2,7 @@ node {
 
 try {
  
- emailtext body: 'Test Email Body!!', subject: 'Pipeline Job started', to: 'mailtolaki@gmail.com'
+ emailext body: 'test!!', subject: 'Pipeline Job started', to: 'mailtolaki@gmail.com'
  
  stage('Git CheckOut') {
     git branch: 'main', url: 'https://github.com/Varalakshm/M1014507DevOpsAssignment.git'
